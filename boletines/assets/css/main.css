@@ -1,0 +1,62 @@
+/* comentario 
+Navy: #0A4D68
+Teal: #088395
+Blue: #05BFDB
+Mint: #00FFCA
+Rosa: #d500f9
+*/
+html{
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #d500f9
+}
+.upper_title{
+    text-transform: capitalize;
+    padding: 0.2em;
+    text-align: center;
+}
+.container{
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    width: 95%;
+    height: 95%;
+    background-color: #fff;
+}
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.table{
+    width: 95%;
+    border-spacing: 0.5;
+}
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-child(even) {
+    background-color: #f3e5f5;
+}
+.fa-star, .fa-star-half-o, .fa-star-o {
+    color: #ffc400;
+}
+
+/*td{
+    border: solid 1px;
+}*/
