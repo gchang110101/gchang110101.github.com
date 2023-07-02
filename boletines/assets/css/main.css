@@ -5,18 +5,28 @@ Blue: #05BFDB
 Mint: #00FFCA
 Rosa: #d500f9
 */
+
 html{
     font-family: 'Nunito', sans-serif;
 }
+
 a{
     text-decoration: none;
     color: #d500f9
 }
+
+a:hover{
+    opacity: 0.46;
+}
+
+/*visited, active*/
+
 .upper_title{
     text-transform: capitalize;
     padding: 0.2em;
     text-align: center;
 }
+
 .container{
     background: #a8ff78;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
@@ -26,35 +36,106 @@ a{
     align-items: center;
     justify-content: center;
 }
+
 .content{
     max-width: 960px;
     max-height: 500px;
     width: 95%;
     height: 95%;
     background-color: #fff;
+    /* box-shadow: diferenciaHorizontal, diferenciaVertical, desenfoque, amplitud, color*/
+    box-shadow: -2px 3px 6px #000;
+    border-radius: 0.5em;
+    position: relative;
+    padding: 1.8em;
 }
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: teal;
+    display: inline-block;
+    box-shadow: 2px 3px 6px #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-title{
+    text-align: center;
+}
+
 .paragraph{
     line-height: 1.8em;
     font-weight: 300;
 }
+
 .red {
     height: 200px;
     width: 200px;
     background-color: red;
 }
+
 .table{
     width: 95%;
     border-spacing: 0.5;
 }
+
 .table td, .table th{
     padding: 1em;
     text-align: left;
 }
+
 .table tr:nth-child(even) {
     background-color: #f3e5f5;
 }
+
 .fa-star, .fa-star-half-o, .fa-star-o {
     color: #ffc400;
+}
+
+.title-item{
+    /* border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #3cfa85;
+    padding: 1em;
+    text-align: left; */
+
+    /* SHORTHAND PROPERTY: */
+    border-bottom: solid 2px  #3cfa85;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    font-size: 2em;
+}
+
+.position{
+    background-color: #3cfa85;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin-right: 1em;
+}
+
+.address{
+    font-weight: bold;
+    color: teal;
+    font-size: 1.2em;
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px; 
 }
 
 /*td{
