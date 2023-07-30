@@ -1,5 +1,6 @@
 # gchang110101.github.com
-Introducción a HTML página CV con curso códigofacilito
+Introducción a HTML/CSS/JS con curso códigofacilito
+(<a href="https://codigofacilito.com/cursos/frontend-profesional">Curso</a>)
 
 Estas páginas son solo de práctica y aprendizaje, no son oficiales/finales/formales
 
